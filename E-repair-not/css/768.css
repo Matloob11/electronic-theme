@@ -1,0 +1,161 @@
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+
+
+/*  ************************* GENERAL *********************/
+	html, body { min-width: 768px; }		
+
+	#main h1 {
+	  font-size: 24px;
+	  line-height: 28px;
+	  margin: 0 0 20px;
+	}
+		#main h1 span, #main h2 span { font-size: 13px; }
+	#main h2 {
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 20px;
+	}
+
+/*  *********************** HEADER ***************************/
+
+	#topnav > li > a { padding: 0 15px 0 16px; }	
+		.gecko #topnav > li > a { padding: 0 16px 0 17px; }	
+		#topnav > li:first-child { padding-left: 4px; }
+
+	#header .wrapWalkingText { width: 274px; }	
+		.scrollingBox { width: 270px; }
+
+/*  ****************************** SLIDER *****************/
+
+	.metaslider {
+	  height: 258px;
+	  width: 724px;
+	}
+		.metaslider .slides { height: 258px; }
+	
+
+	#main #sliderWrap .metaslider .caption-wrap h2 {
+	  font-size: 34px;
+	  line-height: 32px;
+	  padding: 0 0 0 23px;
+	}
+
+	#sliderWrap .metaslider .caption-wrap { height: 258px; }
+
+		.ie #sliderWrap .metaslider .caption-wrap { right: 150px; }
+
+		#main #sliderWrap .metaslider .caption-wrap p {
+			font-size: 19px;
+			line-height: 24px;
+		}
+		#main #sliderWrap .metaslider .caption-wrap a[href*="callto"] {
+			font-size: 36px;
+			line-height: 36px;
+		}
+		#main #sliderWrap .metaslider .caption-wrap a.read {
+			line-height: 35px;
+			padding: 0 17px;
+		}
+
+/*  ****************************** CAROUSEL *****************/
+
+	#carouselArea { padding-top: 50px; height: 470px; }
+
+	#main div[id*="my_fredcarouselwidget"] > h2 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	#main div[id*="my_fredcarouselwidget"] > .title_descr {
+		font-size: 29px;
+		line-height: 45px;
+	}
+
+		
+	.list_carousel { width: 724px; }
+		.list_carousel li { margin-right: 31px; min-height: 295px; 	}
+
+
+	.caroNav a { bottom: -30px; }	
+		.caroNav a.prev { margin-left: -43px; }
+		.caroNav a.next { margin-right: -43px; }
+
+	.banners-holder li { width: 351px; }
+
+	#bannerArea .scrollingBox { width: 720px; }
+
+/*  ****************************** SUBPAGE CONTENT ************************/
+
+
+	.wrap_content blockquote { width: 200px; }
+
+	.wpcf7-form .leftPart { width: 240px; }
+	.wpcf7-form .rightPart { width: 464px; }
+		.wrap_cf .wpcf7-form input[type="text"],
+		.wrap_cf .wpcf7-form input[type="email"],
+		.wrap_cf .wpcf7-form textarea {
+		  width: 95%;
+		}
+		
+
+	.single #primaryWrapContent .featured-thumbnail img,
+	.archive #primaryWrapContent .featured-thumbnail img,
+	.blog #primaryWrapContent .featured-thumbnail img,
+	.page-template-page-blog-php #primaryWrapContent .featured-thumbnail img,
+	.search #primaryWrapContent .featured-thumbnail img {
+	  width: auto;
+	}	
+	
+	.testimonial .featured-thumbnail img { width: auto !important; }
+
+	#sidebar #searchform input[type="text"] { width: 77%; }
+
+	
+	.list.numeric_list li { margin-bottom: 20px; }
+
+	.post-meta, .post-meta a, .post-meta time, .wrapMeta b a  { font-size: 10px; }	
+
+	#before_footer div[id*="text"] .textwidget:after {	
+		-webkit-background-size: 659px 28px;
+		background-size: 659px 28px;
+	}
+
+	/*  ************************* blog pages style ******************/
+
+	#commentform textarea { width: 410px; }
+		
+	/*  **********************************************/
+
+	.blog #content article.post-holder .post-content {
+	  padding-left: 270px;
+	}
+	
+	.wrap_cf .wpcf7-form input[type="text"],
+	.wrap_cf .wpcf7-form input[type="email"],
+	.wrap_cf .wpcf7-form input[type="number"],
+	.wrap_cf .wpcf7-form textarea {
+	  width: 90.5%;
+	}
+
+	.wrap_cf .wpcf7-form textarea {
+	  width: 94.5%;
+	}
+
+	.span3 #searchform input[type="text"] { width: 78%; }
+
+
+/*  ****************************** FOOTER ********************************/
+
+	#footer ul.social-networks li { width: 27px; }
+
+	#footer #logo + p { font-size: 9px; }	
+	
+
+	
+/*  **** END OF FILE ****/
+}
+
+

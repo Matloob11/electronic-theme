@@ -1,0 +1,116 @@
+/* Note: Design for a width above 1281px */
+
+
+@media only screen and (min-width: 1200px) {
+
+
+
+/*  ************************* GENERAL *********************/
+	html,
+	body {
+		min-width:1200px;
+		}
+
+/*  ************************* HEADER *************************/
+	
+	#topnav > li > a { padding: 0 47px; }
+		/* .gecko #topnav > li > a { padding: 0 48px; }
+		.ie #topnav > li > a { padding: 0 50px; } */
+		
+
+
+	/* 	#topnav > li:first-child { padding-left: 9px; }
+		.ie #topnav > li:first-child { padding: 0; }
+		.ie #topnav > li:first-child > a { padding: 0 40px; }
+	 */
+
+/*  ****************************** HOME CONTENT *****************/
+	
+	.metaslider {
+		max-width: none !important;
+		width: 1170px;	
+		height: 480px;
+		height: 422px;
+	}
+
+		/* .metaslider .slides { height: 480px; } */
+		.metaslider .slides { height: 422px; }
+		
+	/* 	#sliderWrap .metaslider .caption-wrap { height: 480px; } */
+
+		#sliderWrap .metaslider .caption-wrap { height: 422px; }
+			.ie #sliderWrap .metaslider .caption-wrap { right: 333px; }
+
+			.metaslider .flex-active-slide {
+			  
+			}
+
+	/* .list_carousel {  height: 310px !important; } */
+	.caroNav a {
+	  bottom: auto;
+	  top: 53%;
+	}
+		.caroNav a.next {
+		  margin-right: -50px;
+		  right: 0;
+		}
+		.caroNav a.prev {
+		  margin-left: -53px;
+		  left: 0;
+		}
+
+	.list_carousel li { margin-right: 16px; }
+
+
+	.banners-holder li {
+	  width: 575px;
+	}
+			
+/*  ****************************** END OF HOME CONTENT *****************/
+
+
+/*  ****************************** SUBPAGE CONTENT ************************/
+	
+	#sidebar #searchform input[type="text"] { width: 87%; }
+
+	.wrap_content blockquote { width: 366px; }
+
+
+	#breadcrumbs .breadcrumb { padding: 17px 0 17px 17px; }		
+				
+	/*  ************************* blog pages style ******************/
+
+	#commentform textarea {
+	  width: 719px;
+	}
+	
+	/*  **************************************************/
+		
+	.wrap_cf.main .wpcf7-form input[type="text"],
+	.wrap_cf.main .wpcf7-form input[type="email"],
+	.wrap_cf.main .wpcf7-form textarea {
+	  margin-left: 0;
+	  width: 96% !important;
+	}	
+	
+
+		.span3 #searchform input[type="text"] { width: 86%; }
+
+	#footer a#logo img {
+	  float: left;
+	}
+
+	#searchform input[type="text"] { width: 83%; }
+
+	.sidebar #searchform input[type="text"] { width: 87%; }
+
+/*  ****** END OF FILE *****/
+}
+
+
+@media screen and (min-width: 1281px) and (-webkit-min-device-pixel-ratio:0) 
+{  
+	
+}
+
+

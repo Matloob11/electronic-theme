@@ -1,0 +1,21 @@
+#commentform input[type="text"] {
+	padding: 5px 10px 7px 10px;
+}
+#back-top-wrapper {
+	height: auto;
+}
+
+
+#searchform input[type="text"] { line-height: 42px; }
+
+/*nav.primary { height: 55px\0/; }   for IE8-9*/
+
+
+
+html>/**/body .main.wrap_cf .wpcf7-form input[type="text"],  /* for IE8 */
+html>/**/body .main.wrap_cf .wpcf7-form input[type="email"],
+html>/**/body .main.wrap_cf .wpcf7-form textarea { line-height: 37px; } /* for IE8 */
+
+/* html>body #wrapTopFooter > div {
+	width: 216px;
+} */

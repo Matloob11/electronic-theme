@@ -1,0 +1,52 @@
+[31-Jul-2023 01:27:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-sanitize.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-sanitize.php on line 5
+[31-Jul-2023 01:27:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php on line 9
+[31-Jul-2023 01:28:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php on line 9
+[31-Jul-2023 01:28:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php on line 9
+[31-Jul-2023 01:29:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php on line 9
+[31-Jul-2023 01:29:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php on line 9
+[31-Jul-2023 01:29:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-sanitize.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-sanitize.php on line 5
+[31-Jul-2023 01:29:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php on line 9
+[31-Jul-2023 01:30:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php on line 9
+[31-Jul-2023 01:30:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php on line 9
+[31-Jul-2023 01:35:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php on line 9
+[31-Jul-2023 01:54:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-medialibrary-uploader.php on line 9
+[31-Jul-2023 01:54:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-sanitize.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/templ2preview/public_html/wordpress/300111829/wp-content/themes/E-repair/admin/options-sanitize.php on line 5

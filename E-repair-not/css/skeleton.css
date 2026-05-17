@@ -1,0 +1,384 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+
+/* Table of Contents
+==================================================
+    #Base 1250 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+/*  1280px-960px 
+================================================== */
+
+    /* Note: Design for a width 1280px-960px */
+
+        .container_12  { position: relative; margin: 0 auto; width: 960px; padding: 0;}
+        	
+        .grid_1,
+		.grid_2,
+		.grid_3,
+		.grid_4,
+		.grid_5,
+		.grid_6,
+		.grid_7,
+		.grid_8,
+		.grid_9,
+		.grid_10,
+		.grid_11,
+		.grid_12
+		{ float: left; display: inline; margin-left: 10px; margin-right: 10px;  }
+         .container_12 .alpha               { margin-left: 0; margin-right: 10px; }
+         .container_12 .omega               { margin-right: 0; margin-left: 10px; }
+
+        .container_12 .grid_1 			{ width: 60px; }
+        .container_12 .grid_2  			{ width: 140px; }
+        .container_12 .grid_3    		{ width: 220px; }
+        .container_12 .grid_4 			{ width: 300px; }
+        .container_12 .grid_5    		{ width: 380px; }
+        .container_12 .grid_6   		{ width: 460px; }
+        .container_12 .grid_7 			{ width: 540px; }
+        .container_12 .grid_8  			{ width: 620px; }
+        .container_12 .grid_9 			{ width: 700px; }
+        .container_12 .grid_10			{ width: 780px; }
+        .container_12 .grid_11			{ width: 860px; }
+        .container_12 .grid_12			{ width: 940px; }
+		/* Prefix Extra Space >> 12 Columns */
+		.container_12 .prefix_1 		{padding-left:80px;}
+		.container_12 .prefix_2 		{padding-left:160px;}
+		.container_12 .prefix_3 		{padding-left:240px;}
+		.container_12 .prefix_4 		{padding-left:320px;}
+		.container_12 .prefix_5 		{padding-left:400px;}
+		.container_12 .prefix_6 		{padding-left:480px;}
+		.container_12 .prefix_7 		{padding-left:560px;}
+		.container_12 .prefix_8 		{padding-left:640px;}
+		.container_12 .prefix_9 		{padding-left:720px;}
+		.container_12 .prefix_10 		{padding-left:800px;}
+		.container_12 .prefix_11 		{padding-left:880px;}
+		/* Suffix Extra Space >> 12 Columns */
+		.container_12 .suffix_1 		{padding-right:80px;}
+		.container_12 .suffix_2 		{padding-right:160px;}
+		.container_12 .suffix_3 		{padding-right:240px;}
+		.container_12 .suffix_4 		{padding-right:320px;}
+		.container_12 .suffix_5 		{padding-right:400px;}
+		.container_12 .suffix_6 		{padding-right:480px;}
+		.container_12 .suffix_7 		{padding-right:560px;}
+		.container_12 .suffix_8 		{padding-right:640px;}
+		.container_12 .suffix_9 		{padding-right:720px;}
+		.container_12 .suffix_10 		{padding-right:800px;}
+		.container_12 .suffix_11 		{padding-right:880px;}
+		
+/*  **************************************************/
+
+
+/* #Base 1300 Grid
+================================================== */
+@media only screen and (min-width: 1281px) {
+    .container_12{ position: relative; width: 1200px; margin: 0 auto; padding: 0; }
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12
+	{ float: left; display: inline; margin-left: 15px; margin-right: 15px; }
+/* Nested Column Classes */
+  .container_12 .alpha               { margin-left: 0; }
+  .container_12 .omega               { margin-right: 0; }
+/* Base Grid */
+  .container_12 .grid_1			{ width: 70px;  }
+  .container_12 .grid_2			{ width: 170px; }
+  .container_12 .grid_3			{ width: 270px; }
+  .container_12 .grid_4			{ width: 370px; }
+  .container_12 .grid_5			{ width: 470px; }
+  .container_12 .grid_6			{ width: 570px; }
+  .container_12 .grid_7			{ width: 670px; }
+  .container_12 .grid_8			{ width: 770px; }
+  .container_12 .grid_9			{ width: 870px; }
+  .container_12 .grid_10			{ width: 970px; }
+  .container_12 .grid_11			{ width: 1070px; }
+  .container_12 .grid_12			{ width: 1170px; }
+/* Prefix Extra Space >> 12 Columns */
+	.container_12 .prefix_1 		{padding-left:100px;}
+	.container_12 .prefix_2 		{padding-left:200px;}
+	.container_12 .prefix_3 		{padding-left:300px;}
+	.container_12 .prefix_4 		{padding-left:400px;}
+	.container_12 .prefix_5 		{padding-left:500px;}
+	.container_12 .prefix_6 		{padding-left:600px;}
+	.container_12 .prefix_7 		{padding-left:700px;}
+	.container_12 .prefix_8 		{padding-left:800px;}
+	.container_12 .prefix_9 		{padding-left:900px;}
+	.container_12 .prefix_10 		{padding-left:1000px;}
+	.container_12 .prefix_11 		{padding-left:1100px;}
+/* Suffix Extra Space >> 12 Columns */
+.container_12 .suffix_1 		{padding-right:100px;}
+.container_12 .suffix_2 		{padding-right:200px;}
+.container_12 .suffix_3 		{padding-right:300px;}
+.container_12 .suffix_4 		{padding-right:400px;}
+.container_12 .suffix_5 		{padding-right:500px;}
+.container_12 .suffix_6 		{padding-right:600px;}
+.container_12 .suffix_7 		{padding-right:700px;}
+.container_12 .suffix_8 		{padding-right:800px;}
+.container_12 .suffix_9 		{padding-right:900px;}
+.container_12 .suffix_10 		{padding-right:1000px;}
+.container_12 .suffix_11 		{padding-right:1100px;}
+}
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 979px) {
+        .container_12                                  { width: 720px; }
+        .grid_1,
+		.grid_2,
+		.grid_3,
+		.grid_4,
+		.grid_5,
+		.grid_6,
+		.grid_7,
+		.grid_8,
+		.grid_9,
+		.grid_10,
+		.grid_11,
+		.grid_12
+		{ margin-left: 10px; margin-right: 10px;  }
+         .container_12 .alpha               { margin-left: 0; margin-right: 10px; }
+         .container_12 .omega               { margin-right: 0; margin-left: 10px; }
+
+        .container_12 .grid_1 			{ width: 40px; }
+        .container_12 .grid_2  			{ width: 100px; }
+        .container_12 .grid_3    		{ width: 160px; }
+        .container_12 .grid_4 			{ width: 220px; }
+        .container_12 .grid_5    		{ width: 280px; }
+        .container_12 .grid_6   		{ width: 340px; }
+        .container_12 .grid_7 			{ width: 400px; }
+        .container_12 .grid_8  			{ width: 460px; }
+        .container_12 .grid_9 			{ width: 520px; }
+        .container_12 .grid_10			{ width: 580px; }
+        .container_12 .grid_11			{ width: 660px; }
+        .container_12 .grid_12			{ width: 700px; }
+		/* Prefix Extra Space >> 12 Columns */
+		.container_12 .prefix_1 		{padding-left:60px;}
+		.container_12 .prefix_2 		{padding-left:120px;}
+		.container_12 .prefix_3 		{padding-left:180px;}
+		.container_12 .prefix_4 		{padding-left:240px;}
+		.container_12 .prefix_5 		{padding-left:300px;}
+		.container_12 .prefix_6 		{padding-left:360px;}
+		.container_12 .prefix_7 		{padding-left:420px;}
+		.container_12 .prefix_8 		{padding-left:480px;}
+		.container_12 .prefix_9 		{padding-left:540px;}
+		.container_12 .prefix_10 		{padding-left:600px;}
+		.container_12 .prefix_11 		{padding-left:660px;}
+		/* Suffix Extra Space >> 12 Columns */
+		.container_12 .suffix_1 		{padding-right:60px;}
+		.container_12 .suffix_2 		{padding-right:120px;}
+		.container_12 .suffix_3 		{padding-right:180px;}
+		.container_12 .suffix_4 		{padding-right:240px;}
+		.container_12 .suffix_5 		{padding-right:300px;}
+		.container_12 .suffix_6 		{padding-right:360px;}
+		.container_12 .suffix_7 		{padding-right:420px;}
+		.container_12 .suffix_8 		{padding-right:580px;}
+		.container_12 .suffix_9 		{padding-right:540px;}
+		.container_12 .suffix_10 		{padding-right:600px;}
+		.container_12 .suffix_11 		{padding-right:660px;}
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .container_12 { width: 420px; padding: 0 10px; }
+        .grid_1,
+		.grid_2,
+		.grid_3,
+		.grid_4,
+		.grid_5,
+		.grid_6,
+		.grid_7,
+		.grid_8,
+		.grid_9,
+		.grid_10,
+		.grid_11,
+		.grid_12{margin: 0 10px;}
+		
+		.container_12 .alpha               { margin-left: 0; margin-right: 0; }
+        .container_12 .omega               { margin-right: 0; margin-left: 0; }
+
+        .container_12 .grid_1,
+        .container_12 .grid_2,
+        .container_12 .grid_3,
+        .container_12 .grid_4,
+        .container_12 .grid_5,
+        .container_12 .grid_6,
+        .container_12 .grid_7,
+        .container_12 .grid_8,
+        .container_12 .grid_9,
+        .container_12 .grid_10,
+        .container_12 .grid_11,
+        .container_12 .grid_12{ width: 400px; }
+		/* Prefix Extra Space >> 12 Columns */
+		.container_12 .prefix_1,
+		.container_12 .prefix_2,
+		.container_12 .prefix_3,
+		.container_12 .prefix_4,
+		.container_12 .prefix_5,
+		.container_12 .prefix_6,
+		.container_12 .prefix_7,
+		.container_12 .prefix_8,
+		.container_12 .prefix_9,
+		.container_12 .prefix_10,
+		.container_12 .prefix_11{padding-left:0; }
+		/* Suffix Extra Space >> 12 Columns */
+		.container_12 .suffix_1,
+		.container_12 .suffix_2,
+		.container_12 .suffix_3,
+		.container_12 .suffix_4,
+		.container_12 .suffix_5,
+		.container_12 .suffix_6,
+		.container_12 .suffix_7,
+		.container_12 .suffix_8,
+		.container_12 .suffix_9,
+		.container_12 .suffix_10,
+		.container_12 .suffix_11{padding-right:0;}
+
+		/* .container_12 div[class*="grid"] div[class*="grid"]{
+		  margin-left: 0;
+		  margin-bottom: 0;
+		} */
+		
+    }
+
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+  @media only screen and (max-width: 479px) {
+        .container_12{width:300px; padding: 0 10px; }
+        .grid_1,
+		.grid_2,
+		.grid_3,
+		.grid_4,
+		.grid_5,
+		.grid_6,
+		.grid_7,
+		.grid_8,
+		.grid_9,
+		.grid_10,
+		.grid_11,
+		.grid_12{margin: 0 10px;}
+
+		.container_12 .alpha               { margin-left: 0; margin-right: 0; }
+        .container_12 .omega               { margin-right: 0; margin-left: 0; }
+
+        .container_12 .grid_1,
+        .container_12 .grid_2,
+        .container_12 .grid_3,
+        .container_12 .grid_4,
+        .container_12 .grid_5,
+        .container_12 .grid_6,
+        .container_12 .grid_7,
+        .container_12 .grid_8,
+        .container_12 .grid_9,
+        .container_12 .grid_10,
+        .container_12 .grid_11,
+        .container_12 .grid_12{ width:280px; }
+		/* Prefix Extra Space >> 12 Columns */
+		.container_12 .prefix_1,
+		.container_12 .prefix_2,
+		.container_12 .prefix_3,
+		.container_12 .prefix_4,
+		.container_12 .prefix_5,
+		.container_12 .prefix_6,
+		.container_12 .prefix_7,
+		.container_12 .prefix_8,
+		.container_12 .prefix_9,
+		.container_12 .prefix_10,
+		.container_12 .prefix_11{padding-left:0;}
+		/* Suffix Extra Space >> 12 Columns */
+		.container_12 .suffix_1,
+		.container_12 .suffix_2,
+		.container_12 .suffix_3,
+		.container_12 .suffix_4,
+		.container_12 .suffix_5,
+		.container_12 .suffix_6,
+		.container_12 .suffix_7,
+		.container_12 .suffix_8,
+		.container_12 .suffix_9,
+		.container_12 .suffix_10,
+		.container_12 .suffix_11{padding-right:0;}
+
+
+/* .container_12 div[class*="grid"] div[class*="grid"]{
+  margin-left: 0;
+  margin-bottom: 0;
+} */
+
+    }
+
+
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container_12:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+    .left{
+    	float: left
+    }
+    .right{
+    	float: right
+    }
+
+

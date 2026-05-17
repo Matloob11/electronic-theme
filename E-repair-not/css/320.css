@@ -1,0 +1,154 @@
+/*  #Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 479px) {
+
+	html, body {
+	  margin-top: 0 !important;
+	  min-width: 320px;
+	}
+	
+	body #main {
+	}
+
+	#main #sliderWrap .metaslider .caption-wrap a[href*="callto"] { margin: 7px 0 0 0; }	
+	#main #sliderWrap .metaslider .caption-wrap a.read { margin-top: 4px; }
+	
+	.list_carousel li {
+	  margin-right: 12px;
+	  padding: 7px;
+	  width: 140px;
+	  height: 248px !important;
+	}
+		.list_carousel .slidertitle a {
+		  font-size: 9px;
+		  line-height: 11px;
+		}
+	
+	.caroufredsel_wrapper {
+	  height: 258px !important;
+	  width: 320px !important;
+	}
+
+	.list_carousel li .details {
+	  margin-top: 0;
+	}	
+	.list_carousel li .excerpt { margin-bottom: 10px; }
+
+	.metaslider {
+	  margin: 0 auto;
+	  max-width: 440px !important;
+	  min-height: 90px;
+	  padding: 5px;
+	  width: 290px;
+	  height: 100px;
+	}
+
+	#sliderWrap .metaslider .caption-wrap {
+	  height: 105px;
+	}
+	.metaslider .slides {
+	  height: 105px;
+	}
+	.metaslider .flexslider .slides li {
+	  height: 105px;
+	}
+	
+	#main div[id*="my_fredcarouselwidget"] > h2 {
+	  font-size: 14px;
+	  line-height: 15px;
+	}
+
+	#bannerArea .scrollingBox { width: 300px; }
+
+	.wrap_cf .wpcf7-form input[type="text"],
+	.wrap_cf .wpcf7-form input[type="email"],
+	.wrap_cf .wpcf7-form input[type="tel"],
+	.wrap_cf .wpcf7-form input[type="number"],
+	.wrap_cf .wpcf7-form textarea {
+	  width: 260px;
+	}
+	div.wpcf7-response-output { width: 165px; }
+
+	.search-results .post-content,
+	.author .post-content,
+	.blog .post-content {
+	  clear: both;
+	}
+
+	ol.commentlist li.comment .comment-body { padding: 138px 30px 20px 20px; }
+		li.comment .comment-body p { clear: both; }
+
+	.span3 #searchform input[type="text"] { width: 245px; }	
+
+	.error404-num { font-size: 100px; }
+
+	#error404 h2 {
+	  margin-top: 20px;
+	}
+
+	#error404 #searchform { width: 230px; }
+		.search-no-results #wrap_all #searchform input[type="text"],
+		.error404 #error404 #searchform input[type="text"] {
+		  width: 194px !important;
+		}
+
+
+	
+	.single-testi .testimonial .featured-thumbnail {
+		float: none !important;
+		margin: 0 0 15px 0 !important;
+	}
+		
+	#primaryWrapContent p.left {
+	  clear: both;
+	  float: none;
+	  overflow: hidden;
+	}
+	
+	.single-testi #content article.testimonial {
+	  padding: 160px 15px 15px 15px !important;
+	}
+
+	#home-content img.alignleft { float: none; }
+
+
+	.single #primaryWrapContent .featured-thumbnail img,
+	.archive #primaryWrapContent .featured-thumbnail img,
+	.blog #primaryWrapContent .featured-thumbnail img,
+	.page-template-page-blog-php #primaryWrapContent .featured-thumbnail img,
+	.search #primaryWrapContent .featured-thumbnail img {
+	  width: 150px;
+	  height: auto;
+	  
+	}
+	
+	#primaryWrapContent .span3 img.alignleft,
+	#primaryWrapContent .span3 img.alignright {
+	  float: none;
+	}
+	#primaryWrapContent .wrap_content .page .row .span3 {
+	  margin-bottom: 20px;
+	}
+
+
+	#commentform input[type="text"], #commentform textarea {
+	  width: 92%;
+	}
+
+
+	.span12.portfolio {
+	  width: 300px;
+	}
+
+
+/*  *********************** END OF FILE *******************/
+} 
+
+
+
+@media screen and (max-width: 479px) and (-webkit-min-device-pixel-ratio:0) 
+{  
+	 
+}	
